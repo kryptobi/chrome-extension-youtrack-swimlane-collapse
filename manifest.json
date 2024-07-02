@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTrack Collapse Swimlanes",
+  "version": "1.0",
+  "description": "A Chrome plugin to collapse all swimlanes on a YouTrack board.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/youtrack/*"],
+      "js": ["openclose.js"]
+    }
+  ]
+}
