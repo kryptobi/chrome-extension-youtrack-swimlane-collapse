@@ -1,6 +1,9 @@
 # Chrome Plugin for Collapsing YouTrack Swimlanes
 This Chrome plugin is designed to help users quickly collapse all swimlanes on a YouTrack board with a single click. It's particularly useful for those who manage large boards and wish to streamline their view.
 
+![Screenshot 2024-07-08 at 12 47 14](https://github.com/kryptobi/chrome-extension-youtrack-swimlane-collapse/assets/10707524/1af7399f-8d60-42b1-8ec7-16c8e789935c)
+
+
 ## Features
 * **One-Click Collapse**: Easily collapse all swimlanes on your YouTrack board.
 * **Easy to Use**: Simple interface, no configuration needed.
@@ -30,10 +33,6 @@ Upon clicking “Load unpacked,” a file explorer window will appear. Select th
 
 ## Usage
 To use the plugin, simply click on its icon in the Chrome toolbar when you have a YouTrack board open. The plugin will automatically collapse all swimlanes on the board.
-
-
-## Contributing
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
